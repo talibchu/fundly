@@ -1,8 +1,8 @@
-"use client"
+"use client";
 import { useLayoutEffect, useState } from "react";
 
 export const useScreenDetector = () => {
-  const [width, setWidth] = useState(window.innerWidth);
+  const [width, setWidth] = useState(0);
 
   const handleWindowSizeChange = () => {
     setWidth(window.innerWidth);
