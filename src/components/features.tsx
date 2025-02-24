@@ -62,13 +62,11 @@ const featuredItems = [
 ];
 
 export const FeaturesCarousel = () => {
-  const plugin = useRef(
-    Autoplay({ delay: 5000, stopOnInteraction: true })
-  );
+  const plugin = useRef(Autoplay({ delay: 5000, stopOnInteraction: true }));
 
   return (
     <section>
-      <div className="flex flex-col items-center gap-[30px] text-[#3d231c] pt-[70px]">
+      <div className="flex flex-col items-center gap-[30px] text-main-text pt-[70px]">
         <h1 className="text-5xl text-center pb-[30px] lg:text-[64px]">
           Designed to Do Good
         </h1>

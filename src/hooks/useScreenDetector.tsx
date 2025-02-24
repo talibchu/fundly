@@ -2,18 +2,22 @@
 import { useLayoutEffect, useState } from "react";
 
 export const useScreenDetector = () => {
-  const [width, setWidth] = useState(0);
+  const [width, setWidth] = useState(
+    typeof window !== "undefined" ? window.innerWidth : 0
+  );
 
   const handleWindowSizeChange = () => {
     setWidth(window.innerWidth);
   };
 
   useLayoutEffect(() => {
-    window.addEventListener("resize", handleWindowSizeChange);
+    if (typeof window !== "undefined") {
+      window.addEventListener("resize", handleWindowSizeChange);
 
-    return () => {
-      window.removeEventListener("resize", handleWindowSizeChange);
-    };
+      return () => {
+        window.removeEventListener("resize", handleWindowSizeChange);
+      };
+    }
   }, []);
 
   const isMobile = width <= 768;

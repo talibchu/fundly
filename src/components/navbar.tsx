@@ -10,7 +10,7 @@ export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { isMobile } = useScreenDetector();
   return (
-    <nav className="z-50 fixed top-0 flex flex-col items-center w-full border-b-[16px] border-b-[#75c8e5] bg-white p-5 px-2.5 md:px-0">
+    <nav className="z-50 fixed top-0 flex flex-col items-center w-full border-b-[16px] border-b-nav-blue bg-white p-5 px-2.5 md:px-0">
       <div className="w-full max-w-[1140px] flex justify-between items-center">
         <Link href="/">
           <FundlyLogo />

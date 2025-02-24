@@ -3,7 +3,7 @@ import React from "react";
 import { cva, type VariantProps } from "class-variance-authority";
 
 const navItemsVariants = cva(
-  "flex gap-2 font-semibold text-lg text-[#252b2c]",
+  "flex gap-2 font-semibold text-lg text-secondary-text",
   {
     variants: {
       variant: {
@@ -52,7 +52,7 @@ export const NavItems = ({
         </Link>
       </li>
       <li>
-        <button className="rounded-3xl p-4 py-1 bg-[#91cb55] border-2 border-[#91cb55] hover:bg-transparent transition-colors duration-300 ease-in w-full flex">
+        <button className="rounded-3xl p-4 py-1 bg-fundly-green border-2 border-fundly-green hover:bg-transparent transition-colors duration-300 ease-in w-full flex">
           Log In to Your Fundraiser
         </button>
       </li>

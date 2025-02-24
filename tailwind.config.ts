@@ -6,17 +6,13 @@ export default {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: { 
+  theme: {
     extend: {
       colors: {
-        "fundly-blue": "#4086F7", // Primary Blue / Action Blue
-        "off-white": "#F7F8F9", // Very Light Gray / Background Gray
-        "light-gray": "#E6E8EA", // Light Gray / Border Gray
-        "medium-gray": "#9FA4A9", // Medium Gray / Text Gray
-        "dark-gray": "#333333", // Dark Gray / Almost Black
-        "success-green": "#28A745", // Success / Positive Green
-        "error-red": "#DC3545", // Error / Negative Red
-        "warning-yellow": "#FFC107", // Warning / Attention Yellow
+        "nav-blue": "#75c8e5",
+        "fundly-green": "#91cb55",
+        "main-text": "#3d231c",
+        "secondary-text": "#3d231c",
       },
       fontFamily: {
         sans: [

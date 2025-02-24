@@ -10,12 +10,14 @@ export const Hero = () => {
             A Little Care Can Change the World
           </h1>
           <Link
-            className="rounded-[40px] py-[6px] px-10 text-[32px] block text-[#252b2c] bg-[#91cb55] md:px-20 md:text-[40px]"
+            className="rounded-[40px] py-[6px] px-10 text-[32px] block text-secondary-text bg-fundly-green md:px-20 md:text-[40px]"
             href="#"
           >
             Start a Fundraiser!
           </Link>
-          <p className="text-[22px]">For Individuals and charities. No startup fees. No hidden fees.</p>
+          <p className="text-[22px]">
+            For Individuals and charities. No startup fees. No hidden fees.
+          </p>
         </div>
       </div>
     </header>
