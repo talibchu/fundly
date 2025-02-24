@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ['fundly.com'],
+    domains: ['fundly.com', 'images.fundly.com'],
   },
   // ... other configurations ...
 };
