@@ -1,8 +1,4 @@
-import {
-  Facebook,
-  Instagram,
-  LucideMessageSquare,
-} from "lucide-react";
+import { Facebook, Instagram, LucideMessageSquare } from "lucide-react";
 
 export const siteData = {
   name: "Fundly",
@@ -10,11 +6,9 @@ export const siteData = {
   description:
     "Fundly is dedicated to providing you with the tools you need to raise money for whatever your cause may be.",
   footerNavLinks: [
-    { text: "Fundraising Ideas", href: "" },
-    { text: "Pricing", href: "" },
-    { text: "Privacy Policy", href: "" },
-    { text: "About Us", href: "" },
-    { text: "Support", href: "" },
+    { text: "Terms and Conditions", href: "/terms-and-conditions" },
+    { text: "Refund policy", href: "refund-policy" },
+    { text: "Privacy Policy", href: "privacy-policy" },
   ],
   footerSocialLinks: [
     { text: "Facebook", href: "", icon: Facebook },

@@ -38,9 +38,11 @@ export const NavItems = ({
       </li>
 
       <li>
-        <button className="rounded-3xl p-4 py-1 bg-fundly-green border-2 border-fundly-green hover:bg-transparent transition-colors duration-300 ease-in w-full flex">
-          Log In
-        </button>
+        <Link target="_blank" href="/login">
+          <button className="rounded-3xl p-4 py-1 bg-fundly-green border-2 border-fundly-green hover:bg-transparent transition-colors duration-300 ease-in w-full flex">
+            Log In
+          </button>
+        </Link>
       </li>
     </ul>
   );

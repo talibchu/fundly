@@ -19,7 +19,7 @@ export const Footer = () => {
             </h4>
             <div className="grid grid-cols-2 gap-4 gap-x-10">
               {siteData.footerNavLinks.map(({ text, href }) => (
-                <Link key={text} href={href}>
+                <Link key={text} target="_blank" href={href}>
                   {text}
                 </Link>
               ))}
@@ -33,6 +33,7 @@ export const Footer = () => {
               {siteData.footerSocialLinks.map(({ text, href, icon: Icon }) => (
                 <Link
                   className="flex gap-2 items-center"
+                  target="_blank"
                   key={text}
                   href={href}
                 >

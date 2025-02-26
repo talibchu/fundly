@@ -10,25 +10,22 @@ export const Navbar = () => {
     <nav className="px-4 w-full flex justify-center mb-5">
       <div className="justify-between items-center h-20 w-full container hidden lg:flex">
         <Link href="/" className="inline-flex gap-1 text-sm items-center">
-          <Button
-            size="sm"
-            // className="rounded-3xl bg-black text-white"
-            variant="outline"
-          >
+          <Button size="sm" variant="outline">
             <Home strokeWidth={2} width={20} height={20} />
             Home
           </Button>
         </Link>
         <div>
-          <Image width={105} height={36} src={siteData.logo} alt="" />
+          <Link href="/">
+            <Image width={105} height={36} src={siteData.logo} alt="" />
+          </Link>
         </div>
         <div>
-          <Link href="/" className="inline-flex gap-1 text-sm items-center">
-            <Button
-              size="sm"
-              // className="rounded-3xl bg-black text-white"
-              variant="outline"
-            >
+          <Link
+            href="/login"
+            className="inline-flex gap-1 text-sm items-center"
+          >
+            <Button size="sm" variant="outline">
               Log In to Your Fundraiser
             </Button>
           </Link>
