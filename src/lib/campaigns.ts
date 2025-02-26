@@ -4,7 +4,7 @@ export const campaigns = [
     title: "YOUR Mission: SO DONE abschalten - Jetzt unterstützen!",
     goal: 100000,
     raised: 50000,
-    image: "/images/banner-min.jpg",
+    image: "/images/so_done.webp",
     date: "February 12th, 2025",
     category: "Business",
     organizer: {

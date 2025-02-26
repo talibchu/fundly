@@ -85,7 +85,7 @@ function CampaignCard({
     <article className="p-5 flex flex-col gap-6 bg-white basis-full lg:basis-1/3 shadow-[4px_4px_10px_0px_rgba(0,0,0,0.3)]">
       <div className="flex flex-col gap-2">
         <Image
-          className="rounded-lg hidden lg:block"
+          className="rounded-lg"
           width={720}
           height={405}
           alt=""
