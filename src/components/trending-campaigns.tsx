@@ -1,5 +1,4 @@
 import { Progress } from "@/components/ui/progress";
-import { Play } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
@@ -35,20 +34,13 @@ const campaigns = [
 
 export const TrendingCampaigns = () => {
   return (
-    <section className="w-full flex justify-center bg-[#f4f4f4] py-[70px] text-main-text">
+    <section
+      id="campaigns"
+      className="w-full flex justify-center bg-[#f4f4f4] py-[70px] text-main-text"
+    >
       <div className="w-full max-w-[1140px] flex flex-col">
         <div className="flex flex-col text-center items-center gap-4 lg:flex-row lg:justify-between">
           <h5 className="text-5xl lg:text-[64px]">Trending Campaigns</h5>
-          <span className="inline-flex items-center bg-white gap-2 border-2 border-[#e2e2e2] py-[0.4rem] pr-[0.5rem] pl-[1.4rem] rounded-[40px]">
-            <input
-              placeholder="Search for a Campaign"
-              type="text"
-              className="border-none outline-none text-[20px] py-2.5 px-[15px]"
-            />
-            <button className="bg-fundly-green rounded-full w-10 h-10 text-white flex items-center justify-center">
-              <Play fill="#fff" />
-            </button>
-          </span>
         </div>
         <div className="w-full grid md:grid-cols-3 pt-12 px-2 gap-7 lg:flex-row">
           {campaigns.map((campaign) => (

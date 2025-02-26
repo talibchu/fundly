@@ -10,84 +10,15 @@ const allcauses = [
   },
   {
     href: "#",
-    name: "Creative Projects",
-    image: "https://fundly.com/content/images/icon_vertical_%20creative.svg",
-  },
-  {
-    href: "#",
     name: "Disaster Relief",
     image: "https://fundly.com/content/images/icon_vertical_%20disaster.svg",
-  },
-  {
-    href: "#",
-    name: "Fraternities & Sororities",
-    image: "https://fundly.com/content/images/icon_vertical_%20frat.svg",
-  },
-  {
-    href: "#",
-    name: "Fun & Special Events",
-    image: "https://fundly.com/content/images/icon_vertical_%20fun.svg",
-  },
-  {
-    href: "#",
-    name: "Kids & Family",
-    image: "https://fundly.com/content/images/icon_vertical_%20kids.svg",
-  },
-  {
-    href: "#",
-    name: "LGBT",
-    image: "https://fundly.com/content/images/icon_vertical_%20LGBT.svg",
-  },
-  {
-    href: "#",
-    name: "Medical & Health",
-    image: "https://fundly.com/content/images/icon_vertical_%20medical.svg",
-  },
-  {
-    href: "#",
-    name: "Memorials & Funerals",
-    image: "https://fundly.com/content/images/icon_vertical_%20memorial.svg",
-  },
-  {
-    href: "#",
-    name: "Military",
-    image: "https://fundly.com/content/images/icon_vertical_%20military.svg",
-  },
-  {
-    href: "#",
-    name: "NonProfit/Charity",
-    image: "https://fundly.com/content/images/icon_vertical_%20NP.svg",
-  },
-  {
-    href: "#",
-    name: "Pets & Animals",
-    image: "https://fundly.com/content/images/icon_vertical_%20pets.svg",
-  },
-  {
-    href: "#",
-    name: "Politics & Public Office",
-    image: "https://fundly.com/content/images/icon_vertical_%20politics.svg",
-  },
-  {
-    href: "#",
-    name: "Religious Organizations",
-    image: "https://fundly.com/content/images/icon_vertical_%20religious.svg",
-  },
-  {
-    href: "#",
-    name: "Run/Walk/Rides",
-    image: "https://fundly.com/content/images/icon_vertical_%20run.svg",
   },
   {
     href: "#",
     name: "Schools & Education",
     image: "https://fundly.com/content/images/icon_vertical_%20school.svg",
   },
-  {
-    href: "#",
-    name: "Sports & Teams",
-    image: "https://fundly.com/content/images/icon_vertical_%20sport.svg",
-  },
+
   {
     href: "#",
     name: "Trips & Adventure",

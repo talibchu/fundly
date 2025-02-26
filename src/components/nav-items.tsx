@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import React from "react";
 import { cva, type VariantProps } from "class-variance-authority";
@@ -22,38 +23,23 @@ export const NavItems = ({
       <li>
         <Link
           className="rounded-3xl p-4 py-2 hover:bg-[#e7eaed] transition-colors duration-300 ease-in w-full block"
-          href="#"
+          href="/"
         >
-          Benefits
+          Home
         </Link>
       </li>
       <li>
         <Link
           className="rounded-3xl p-4 py-2 hover:bg-[#e7eaed] transition-colors duration-300 ease-in w-full block"
-          href="#"
+          href="#campaigns"
         >
-          How It Works
+          Campaigns
         </Link>
       </li>
-      <li>
-        <Link
-          className="rounded-3xl p-4 py-2 hover:bg-[#e7eaed] transition-colors duration-300 ease-in w-full block"
-          href="#"
-        >
-          Fundraising Guides
-        </Link>
-      </li>
-      <li>
-        <Link
-          className="rounded-3xl p-4 py-2 hover:bg-[#e7eaed] transition-colors duration-300 ease-in w-full block"
-          href="#"
-        >
-          Blog
-        </Link>
-      </li>
+
       <li>
         <button className="rounded-3xl p-4 py-1 bg-fundly-green border-2 border-fundly-green hover:bg-transparent transition-colors duration-300 ease-in w-full flex">
-          Log In to Your Fundraiser
+          Log In
         </button>
       </li>
     </ul>
