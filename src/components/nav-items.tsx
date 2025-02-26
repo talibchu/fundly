@@ -17,7 +17,8 @@ const navItemsVariants = cva(
 
 export const NavItems = ({
   variant = "default",
-}: VariantProps<typeof navItemsVariants>) => {
+  hideCampaigns,
+}: VariantProps<typeof navItemsVariants> & { hideCampaigns?: boolean }) => {
   return (
     <ul className={navItemsVariants({ variant })}>
       <li>
@@ -28,14 +29,16 @@ export const NavItems = ({
           Home
         </Link>
       </li>
-      <li>
-        <Link
-          className="rounded-3xl p-4 py-2 hover:bg-[#e7eaed] transition-colors duration-300 ease-in w-full block"
-          href="#campaigns"
-        >
-          Campaigns
-        </Link>
-      </li>
+      {hideCampaigns ? null : (
+        <li>
+          <Link
+            className="rounded-3xl p-4 py-2 hover:bg-[#e7eaed] transition-colors duration-300 ease-in w-full block"
+            href="#campaigns"
+          >
+            Campaigns
+          </Link>
+        </li>
+      )}
 
       <li>
         <Link target="_blank" href="/login">

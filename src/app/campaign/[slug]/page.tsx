@@ -2,13 +2,13 @@
 import { Footer } from "@/components/footer";
 import { Details } from "@/components/fundraiser-page/details";
 import { Features } from "@/components/fundraiser-page/features";
-import { Navbar } from "@/components/fundraiser-page/navbar";
 import { ProgressMeter } from "@/components/fundraiser-page/progress-meter";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import React from "react";
 import { useParams } from "next/navigation";
 import { campaigns } from "@/lib/campaigns";
+import { Navbar } from "@/components/navbar";
 
 const FundraiserDetails = () => {
   const params = useParams();
@@ -22,8 +22,9 @@ const FundraiserDetails = () => {
 
   return (
     <div className="flex flex-col items-center w-full">
-      <Navbar />
-      <div className="w-full">
+      {/* <Navbar />  */}
+      <Navbar hideCampaigns={true} />
+      <div className="w-full pt-32">
         <div className="flex flex-col items-center px-4">
           <div className="py-4 pb-2 lg:hidden">
             <Image

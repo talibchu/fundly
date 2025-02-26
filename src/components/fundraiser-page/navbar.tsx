@@ -8,9 +8,9 @@ import React from "react";
 export const Navbar = () => {
   return (
     <nav className="px-4 w-full flex justify-center mb-5">
-      <div className="justify-between items-center h-20 w-full container hidden lg:flex">
-        <Link href="/" className="inline-flex gap-1 text-sm items-center">
-          <Button size="sm" variant="outline">
+      <div className="justify-between items-center h-20 w-full container flex">
+        <Link href="/" className="inline-flex gap-1 text-sm items-center underline">
+          <Button size="sm" className="outline-none border-none shadow-none text-base flex items-center" variant="outline">
             <Home strokeWidth={2} width={20} height={20} />
             Home
           </Button>
@@ -23,16 +23,16 @@ export const Navbar = () => {
         <div>
           <Link
             href="/login"
-            className="inline-flex gap-1 text-sm items-center"
+            className="inline-flex gap-1 text-sm items-center underline"
           >
-            <Button size="sm" variant="outline">
-              Log In to Your Fundraiser
+            <Button size="sm" className="outline-none border-none shadow-none text-base flex items-center" variant="outline">
+              Log In
             </Button>
           </Link>
         </div>
       </div>
 
-      <div className="lg:hidden w-full flex flex-col items-center gap-2">
+      {/* <div className="lg:hidden w-full flex flex-col items-center gap-2">
         <div className="w-full flex justify-center py-3">
           <Image width={105} height={36} src={siteData.logo} alt="" />
         </div>
@@ -59,7 +59,7 @@ export const Navbar = () => {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
     </nav>
   );
 };
