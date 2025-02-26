@@ -11,8 +11,8 @@ export const Navbar = () => {
       <div className="justify-between items-center h-20 w-full container hidden lg:flex">
         <Link href="/" className="inline-flex gap-1 text-sm items-center">
           <Button
-            size="lg"
-            className="rounded-3xl bg-black text-white"
+            size="sm"
+            // className="rounded-3xl bg-black text-white"
             variant="outline"
           >
             <Home strokeWidth={2} width={20} height={20} />
@@ -25,8 +25,8 @@ export const Navbar = () => {
         <div>
           <Link href="/" className="inline-flex gap-1 text-sm items-center">
             <Button
-              size="lg"
-              className="rounded-3xl bg-black text-white"
+              size="sm"
+              // className="rounded-3xl bg-black text-white"
               variant="outline"
             >
               Log In to Your Fundraiser
@@ -40,10 +40,10 @@ export const Navbar = () => {
           <Image width={105} height={36} src={siteData.logo} alt="" />
         </div>
         <div className="flex justify-between items-center gap-6 w-full container h-full">
-        <Link href="/" className="inline-flex gap-1 text-sm items-center">
+          <Link href="/" className="inline-flex gap-1 text-sm items-center">
             <Button
-              size="lg"
-              className="rounded-3xl bg-black text-white"
+              size="sm"
+              className="border-none shadow-none"
               variant="outline"
             >
               <Home strokeWidth={2} width={20} height={20} />
@@ -53,11 +53,11 @@ export const Navbar = () => {
           <div>
             <Link href="/" className="inline-flex gap-1 text-sm items-center">
               <Button
-                size="lg"
-                className="rounded-3xl bg-black text-white"
+                size="sm"
+                className="border-none shadow-none"
                 variant="outline"
               >
-                Log In to Your Fundraiser
+                Log In
               </Button>
             </Link>
           </div>
